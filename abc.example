@@ -1,0 +1,13 @@
+# COMANDOS PARA INICAR PROYECTO
+
+npm init -y
+
+npm install express
+npm install nodemon -D
+npm install dotenv
+
+package.json -> scripts -> "dev": "nodemon otro.js", "start": "node otro.js"
+
+
+npm run dev   #desarrollo
+npm run start #produccion
